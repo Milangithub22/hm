@@ -15,6 +15,42 @@ export default function Portfolio() {
       image: "NEuip.jpg",
       url: "https://tenzies-game01.netlify.app",
     },
+    {
+      title: "basic-react-form",
+      key: nanoid(),
+      image: "NEuip.jpg",
+      url: "https://basic-react-form01.netlify.app",
+    },
+    {
+      title: "tenzies-game",
+      key: nanoid(),
+      image: "NEuip.jpg",
+      url: "https://tenzies-game01.netlify.app",
+    },
+    {
+      title: "quizzical-app",
+      key: nanoid(),
+      image: "NEuip.jpg",
+      url: "https://quizzical-app01.netlify.app/",
+    },
+    {
+      title: "tenzies-game",
+      key: nanoid(),
+      image: "NEuip.jpg",
+      url: "https://tenzies-game01.netlify.app",
+    },
+    {
+      title: "quizzical-app",
+      key: nanoid(),
+      image: "NEuip.jpg",
+      url: "https://quizzical-app01.netlify.app/",
+    },
+    {
+      title: "tenzies-game",
+      key: nanoid(),
+      image: "NEuip.jpg",
+      url: "https://tenzies-game01.netlify.app",
+    },
   ];
 
   const Items = dataPortfolio.map((data) => {

@@ -37,7 +37,10 @@ export default function Header() {
         <div className="banner-text">
           <h1 className="responsive-headline">I'm Milan Vlach.</h1>
           <h3>
-            I'm a Valencia based <span>Developer</span>. Describtion.
+            I'm a Valencia based <span>Developer</span>. Lorem ipsum es el texto
+            que se usa habitualmente en diseño gráfico en demostraciones de
+            tipografías o de borradores de diseño para probar el diseño visual
+            antes de insertar el texto final.
           </h3>
           <hr />
           <ul className="social">

@@ -207,9 +207,9 @@ ul#nav li.current a {
 .portfolio_items {
   display: flex;
   flex-wrap: nowrap;
-  gap: 20px;
+  gap: 200px;
   overflow-x: auto;
-  padding-left: 50px;
+  padding-left: 100px;
   padding-right: 50px;
 }
 .portfolio_title {
