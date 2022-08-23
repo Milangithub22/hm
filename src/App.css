@@ -209,6 +209,8 @@ ul#nav li.current a {
   flex-wrap: nowrap;
   gap: 20px;
   overflow-x: auto;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .portfolio_title {
   text-align: center;
@@ -279,7 +281,6 @@ ul#nav li.current a {
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
-  float: left;
   width: 26%;
 }
 #contact input,
