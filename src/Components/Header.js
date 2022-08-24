@@ -31,8 +31,10 @@ export default function Header() {
               Contact
             </a>
           </li>
+          <li id="lan">
+            <Languages />
+          </li>
         </ul>
-        <Languages />
       </nav>
 
       <div className="row banner">

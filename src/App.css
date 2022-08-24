@@ -171,8 +171,12 @@ ul#nav {
 ul#nav li {
   position: relative;
   list-style: none;
+
   height: 48px;
   display: inline-block;
+}
+ul#nav #lan {
+  float: right;
 }
 
 /* Links */
@@ -199,6 +203,7 @@ ul#nav li a:active {
 ul#nav li.current a {
   color: #f06000;
 }
+
 .portfolio_container {
   padding-top: 50px;
   background-color: white;
