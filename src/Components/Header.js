@@ -2,7 +2,7 @@ import React from "react";
 import Network from "./Network";
 import Languages from "./Languages";
 
-export default function Header() {
+export default function Header({ one, two, data }) {
   return (
     <header id="home">
       <nav id="nav-wrap">
@@ -32,7 +32,7 @@ export default function Header() {
             </a>
           </li>
           <li id="lan">
-            <Languages />
+            <Languages one={one} two={two} />
           </li>
         </ul>
       </nav>

@@ -171,7 +171,6 @@ ul#nav {
 ul#nav li {
   position: relative;
   list-style: none;
-
   height: 48px;
   display: inline-block;
 }
