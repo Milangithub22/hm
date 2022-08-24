@@ -9,6 +9,7 @@ export default function App() {
   return (
     <div className="App">
       <Header />
+
       <Portfolio />
       <Contact />
       <Footer />

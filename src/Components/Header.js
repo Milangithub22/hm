@@ -1,5 +1,6 @@
 import React from "react";
 import Network from "./Network";
+import Languages from "./Languages";
 
 export default function Header() {
   return (
@@ -31,6 +32,7 @@ export default function Header() {
             </a>
           </li>
         </ul>
+        <Languages />
       </nav>
 
       <div className="row banner">
