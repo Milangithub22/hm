@@ -16,7 +16,7 @@ export default function Header({ one, two, data }) {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
-              Home
+              {data ? "Home" : "Casa"}
             </a>
           </li>
 
