@@ -1,7 +1,7 @@
 import React from "react";
 import { nanoid } from "nanoid";
 
-export default function Portfolio() {
+export default function Portfolio({ data }) {
   const dataPortfolio = [
     {
       title: "quizzical-app",
@@ -79,7 +79,11 @@ export default function Portfolio() {
     <section id="portfolio">
       <div className="portfolio_container">
         <div>
-          <h1 className="portfolio_title">Here are a few of mine projects.</h1>
+          <h1 className="portfolio_title">
+            {data
+              ? "Here are a few of mine projects."
+              : "Estos son algunos de mis proyectos."}
+          </h1>
           <div className="portfolio_items">{Items}</div>
         </div>
       </div>

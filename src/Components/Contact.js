@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
-export default function Contact() {
+export default function Contact({ data }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -37,7 +37,7 @@ export default function Contact() {
       <div className="row section-head">
         <div className="two columns header-col">
           <h1>
-            <span>Get In Touch.</span>
+            <span>{data ? "Get In Touch." : "Ponerse en contacto"}</span>
           </h1>
         </div>
       </div>
@@ -46,11 +46,11 @@ export default function Contact() {
         <div className="eight columns">
           <div>
             <label htmlFor="contactName">
-              Name <span className="required">*</span>
+              {data ? "Name" : "Nobre"} <span className="required">*</span>
             </label>
             <input
               type="text"
-              placeholder="Your Name"
+              placeholder={data ? "Your Name" : "Su Nombre"}
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -58,11 +58,14 @@ export default function Contact() {
 
           <div>
             <label htmlFor="contactEmail">
-              Email <span className="required">*</span>
+              {data ? "Email" : "Correo electrónico"}{" "}
+              <span className="required">*</span>
             </label>
             <input
               type="email"
-              placeholder="Your email address"
+              placeholder={
+                data ? "Your email address" : "Su correo electrónico"
+              }
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -70,10 +73,11 @@ export default function Contact() {
 
           <div>
             <label htmlFor="contactMessage">
-              Message <span className="required">*</span>
+              {data ? "Message" : "Mensaje"}
+              <span className="required">*</span>
             </label>
             <textarea
-              placeholder="Your message"
+              placeholder={data ? "Your message" : "Su mensaje"}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
@@ -81,9 +85,15 @@ export default function Contact() {
 
           <div>
             <button className="submit" onClick={submit}>
-              Submit
+              {data ? "Submit" : "Entregar"}
             </button>
-            <span>{emailSent ? "Thank you for your message." : null}</span>
+            <span>
+              {emailSent && data
+                ? "Thank you for your message."
+                : emailSent && data === false
+                ? "Gracias por su mensaje"
+                : null}
+            </span>
           </div>
         </div>
       </div>

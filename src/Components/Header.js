@@ -16,19 +16,19 @@ export default function Header({ one, two, data }) {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll" href="#home">
-              {data ? "Home" : "Casa"}
+              {data ? "Home" : "Inicio"}
             </a>
           </li>
 
           <li>
             <a className="smoothscroll" href="#portfolio">
-              Works
+              {data ? "Projects" : "Proyectos"}
             </a>
           </li>
 
           <li>
             <a className="smoothscroll" href="#contact">
-              Contact
+              {data ? "Contact" : "Contacto"}
             </a>
           </li>
           <li id="lan">
@@ -39,12 +39,17 @@ export default function Header({ one, two, data }) {
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">I'm Milan Vlach.</h1>
+          <h1 className="responsive-headline">
+            {data ? "I am Milan Vlach" : "Yo soy Milan Vlach"}
+          </h1>
           <h3>
-            I'm a Valencia based <span>Developer</span>. Lorem ipsum es el texto
-            que se usa habitualmente en diseño gráfico en demostraciones de
-            tipografías o de borradores de diseño para probar el diseño visual
-            antes de insertar el texto final.
+            {data
+              ? "I'm a Valencia based"
+              : "Soy un desarrollador basado en Valencia."}
+            <span>Developer</span>. Lorem ipsum es el texto que se usa
+            habitualmente en diseño gráfico en demostraciones de tipografías o
+            de borradores de diseño para probar el diseño visual antes de
+            insertar el texto final.
           </h3>
           <hr />
           <ul className="social">

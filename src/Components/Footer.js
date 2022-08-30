@@ -1,7 +1,7 @@
 import React from "react";
 import Network from "./Network";
 
-export default function Footer() {
+export default function Footer({ data }) {
   return (
     <footer>
       <div className="row">
@@ -11,7 +11,9 @@ export default function Footer() {
           </ul>
 
           <ul className="copyright">
-            <li>&copy; Copyright 2022 Milan Vlach</li>
+            <li>
+              &copy;{data ? "Copyright" : "Derechos de autor"} 2022 Milan Vlach
+            </li>
           </ul>
         </div>
         <div id="go-top">
