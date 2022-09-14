@@ -44,13 +44,8 @@ export default function Header({ one, two, data }) {
           </h1>
           <h3>
             {data
-              ? "I'm a Developer based in Spain. I'm incredibly passionate about creating innovative applications and engaging user interfaces. 
-I am a person who keeps things organized, solves problems, and works independently with great attention to detail. Enthusiast of all sports.
-Working on challenging projects with inspiring individuals and being interested in the entire frontend spectrum. "
-              : "Soy un Desarrollador basado en España. Me apasiona increíblemente crear aplicaciones innovadoras e interfaces de usuario atractivas.
-Soy una persona que mantiene las cosas organizadas, resuelve problemas y trabaja de forma independiente con gran atención a los detalles. Aficionado a todos los deportes.
-Trabajar en proyectos desafiantes con personas inspiradoras y estar interesado en todo el espectro de frontend."} 
-            
+              ? "I'm a Developer based in Spain. I'm incredibly passionate about creating innovative applications and engaging user interfaces. I am a person who keeps things organized, solves problems, and works independently with great attention to detail. Enthusiast of all sports.Working on challenging projects with inspiring individuals and being interested in the entire frontend spectrum. "
+              : "Soy un Desarrollador basado en España. Me apasiona increíblemente crear aplicaciones innovadoras e interfaces de usuario atractivas. Soy una persona que mantiene las cosas organizadas, resuelve problemas y trabaja de forma independiente con gran atención a los detalles. Aficionado a todos los deportes. Trabajar en proyectos desafiantes con personas inspiradoras y estar interesado en todo el espectro de frontend."}
           </h3>
           <hr />
           <ul className="social">
