@@ -22,10 +22,10 @@ export default function Portfolio({ data }) {
       url: "https://basic-react-form01.netlify.app",
     },
     {
-      title: "tenzies-game",
+      title: "speed-typing-game",
       key: nanoid(),
       image: "NEuip.jpg",
-      url: "https://tenzies-game01.netlify.app",
+      url: "https://speed-typing-game01.netlify.app",
     },
     {
       title: "quizzical-app",
@@ -57,7 +57,12 @@ export default function Portfolio({ data }) {
     return (
       <div key={data.key}>
         <div>
-          <a href={data.url} title={data.title}>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href={data.url}
+            title={data.title}
+          >
             <img
               alt={data.title}
               style={{ height: 100, width: 100 }}
