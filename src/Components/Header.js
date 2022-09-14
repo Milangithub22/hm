@@ -44,12 +44,16 @@ export default function Header({ one, two, data }) {
           </h1>
           <h3>
             {data
-              ? "I'm a Valencia based"
-              : "Soy un desarrollador basado en Valencia."}
-            <span>Developer</span>. Lorem ipsum es el texto que se usa
-            habitualmente en diseño gráfico en demostraciones de tipografías o
-            de borradores de diseño para probar el diseño visual antes de
-            insertar el texto final.
+              ? "I'm a <span>Developer</span> based in Spain"
+              : "Soy un <span>Desarrollador</span> basado en España."}
+            I'm incredibly passionate about creating innovative applications and engaging user interfaces.
+
+
+I am a person who keeps things organized, solves problems, and works independently with great attention to detail.
+Enthusiast of all sports.
+
+
+Working on challenging projects with inspiring individuals and being interested in the entire frontend spectrum. 
           </h3>
           <hr />
           <ul className="social">
