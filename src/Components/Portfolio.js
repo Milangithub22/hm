@@ -30,7 +30,7 @@ export default function Portfolio({ data }) {
     {
       title: "airbnb-clone",
       key: nanoid(),
-      image: "clone",
+      image: "clone.png",
       url: "https://airbnb-clone01.netlify.app",
     },
   ];
