@@ -6,19 +6,19 @@ export default function Portfolio({ data }) {
     {
       title: "quizzical-app",
       key: nanoid(),
-      image: "NEuip.jpg",
+      image: "quizzical.png",
       url: "https://quizzical-app01.netlify.app/",
     },
     {
       title: "tenzies-game",
       key: nanoid(),
-      image: "NEuip.jpg",
+      image: "tenzies.png",
       url: "https://tenzies-game01.netlify.app",
     },
     {
       title: "basic-react-form",
       key: nanoid(),
-      image: "NEuip.jpg",
+      image: "form.png",
       url: "https://basic-react-form01.netlify.app",
     },
     {
@@ -28,28 +28,10 @@ export default function Portfolio({ data }) {
       url: "https://speed-typing-game01.netlify.app",
     },
     {
-      title: "quizzical-app",
+      title: "airbnb-clone",
       key: nanoid(),
-      image: "NEuip.jpg",
-      url: "https://quizzical-app01.netlify.app/",
-    },
-    {
-      title: "tenzies-game",
-      key: nanoid(),
-      image: "NEuip.jpg",
-      url: "https://tenzies-game01.netlify.app",
-    },
-    {
-      title: "quizzical-app",
-      key: nanoid(),
-      image: "NEuip.jpg",
-      url: "https://quizzical-app01.netlify.app/",
-    },
-    {
-      title: "tenzies-game",
-      key: nanoid(),
-      image: "NEuip.jpg",
-      url: "https://tenzies-game01.netlify.app",
+      image: "clone",
+      url: "https://airbnb-clone01.netlify.app",
     },
   ];
 
