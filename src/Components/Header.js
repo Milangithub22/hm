@@ -1,6 +1,7 @@
 import React from "react";
 import Network from "./Network";
 import Languages from "./Languages";
+import Skills from "./Skills";
 
 export default function Header({ one, two, data }) {
   return (
@@ -48,6 +49,9 @@ export default function Header({ one, two, data }) {
               : "Soy un Desarrollador basado en España. Me apasiona increíblemente crear aplicaciones innovadoras e interfaces de usuario atractivas. Soy una persona que mantiene las cosas organizadas, resuelve problemas y trabaja de forma independiente con gran atención a los detalles. Aficionado a todos los deportes. Trabajar en proyectos desafiantes con personas inspiradoras y estar interesado en todo el espectro de frontend."}
           </h3>
           <hr />
+
+          <Skills />
+
           <ul className="social">
             <Network />
           </ul>
