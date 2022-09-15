@@ -24,7 +24,7 @@ export default function Portfolio({ data }) {
     {
       title: "speed-typing-game",
       key: nanoid(),
-      image: "NEuip.jpg",
+      image: "speed.png",
       url: "https://speed-typing-game01.netlify.app",
     },
     {
